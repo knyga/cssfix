@@ -17,7 +17,9 @@ var cssFix = function(){
       :is('gecko/')?'gecko'
       :is('opera/9')?'opera opera9':/opera (\d)/.test(u)?'opera opera'+RegExp.$1
       :is('konqueror')?'konqueror'
-      :is('applewebkit/')?'webkit safari'
+      :is('chrome/')?'webkit chrome'
+      :is('safari/')?'webkit safari'
+      :is('applewebkit/')?'webkit'
       :is('mozilla/')?'gecko':'',
     (is('x11')||is('linux'))?' linux'
       :is('mac')?' mac'
