@@ -10,7 +10,7 @@ OS selectors:
 ```
 .win — Windows
 .linux — Linux
-.mac — MacOS`
+.mac — MacOS
 ```
 
 Browser selectors:
@@ -27,7 +27,7 @@ Browser selectors:
 .opera8 — opera 8.x
 .opera9 — opera 9.x
 .konqueror — konqueror
-.safari — safari`
+.safari — safari
 ```
 
 Example:
@@ -42,5 +42,5 @@ Look at priorities:
 .win.gecko #id{background: #f00} /* 2 */
 .ff3 #id{background:#333} /* 3 */
 .gecko #id{background:#00f} /* 4 */
-.win #id{background: #ff0} /* 5 */`
+.win #id{background: #ff0} /* 5 */
 ```
